@@ -1,0 +1,1489 @@
+
+/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==========================================================================
+    Общие стили
+   ========================================================================== */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+body { background-color: #f2f2f2; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrap-center {
+  position: relative;
+  max-width: 1200px;
+  min-width: 768px;
+  padding: 0;
+  margin: 0 auto;
+  font: 700 14px/21px 'PT Sans', Arial;
+  text-transform: uppercase;
+  background-color: #fff;
+  box-shadow: 0 0 15px 0px rgba(0,0,0,0.2);
+}
+
+.to-left { float: left; }
+
+.to-right { float: right; }
+
+/* ==========================================================================
+    Главное верхнее меню
+   ========================================================================== */
+
+.top-menu {
+  padding: 0;
+  font-size: 0;
+}
+
+.top-menu li {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  width: 20%;
+}
+
+.top-menu li a:link,
+.top-menu li a:visited,
+.top-menu li a:hover,
+.top-menu li a:active {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.top-menu li a:hover { color: #a8c9df; }
+
+.top-menu li a:active { color: rgba(129,179,210,1); }
+
+.top-menu .active a { color: rgba(129,179,210,0.3); }
+
+.top-menu .active a:hover { color: rgba(96,78,67,1); }
+
+.top-menu .active a:active { color: rgba(96,78,67,0.3); }
+
+.logo { position: relative; }
+
+.logo a {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+
+.logo a img { max-width: 100%; }
+
+/* ==========================================================================
+    Футер
+   ========================================================================== */
+
+footer {
+  width: 100%;
+  padding: 35px 0 15px 0;
+  color: #000;
+  font-size: 0px;
+  text-align: center;
+}
+
+.footer-col {
+  font-size: 0;
+  width: 33.333333%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer h4.footer-col {
+  margin-top: 0.5em;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.social a {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  width: 46px;
+  height: 48px;
+}
+
+.social a:hover { background: #669ec0; }
+
+.social a:active { background: #5496bd; }
+
+.social-twitter::before,
+.social-fb::before,
+.social-youtube::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url('../img/sprite.png') no-repeat top left;
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.social-twitter::before {
+  width: 19px;
+  height: 15px;
+  background-position: -200px -108px;
+}
+
+.social-twitter:active::before { opacity: 0.3; }
+
+.social-fb::before {
+  width: 9px;
+  height: 19px;
+  background-position: -260px -108px;
+}
+
+.social-fb:active::before { opacity: 0.3; }
+
+.social-youtube::before {
+  width: 20px;
+  height: 14px;
+  background-position: -230px -108px;
+}
+
+.social-youtube:active::before { opacity: 0.3; }
+
+.copyright { margin-top: 8px; }
+
+.copyright span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.copyright-author,
+.copyright-client
+ {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  background: url('../img/sprite.png') no-repeat top left;
+  text-indent: -10000px;
+}
+
+.copyright-author {
+  width: 27px;
+  height: 30px;
+  background-position: 0 -140px;
+}
+
+.copyright-author:hover { background-position: -38px -140px; }
+
+.copyright-author:active {
+  background-position: 0 -140px;
+  opacity: 0.3;
+}
+
+.copyright-client {
+  width: 27px;
+  height: 32px;
+  background-position: 0 -108px;
+}
+
+.copyright-client:hover { background-position: -38px -108px; }
+
+.copyright-client:active {
+  background-position: 0 -108px;
+  opacity: 0.3;
+}
+
+/* ==========================================================================
+    Информация
+   ========================================================================== */
+
+/*
+ * ---------- Крупное фото + текстовые блоки
+ */
+
+.intro {
+  position: relative;
+  width: 100%;
+  min-height: 506px;
+  background: #fff url('../pic/bg-intro.jpg') no-repeat 50% -60px ;
+  border-top: 1px solid transparent;
+}
+
+.intro-text {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.intro img { width: 100% }
+
+.intro .welcome {
+  margin-top: 75px;
+  width: 256px;
+  min-height: 86px;
+}
+
+.intro .sedona {
+  margin-top: 45px;
+  width: 458px;
+  min-height: 78px;
+}
+
+.intro .slogan {
+  width: 296px;
+  min-height: 80px;
+  margin-top: 50px;
+}
+
+.intro::after {
+  display: table;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 62px;
+  background: url('../img/intro-mask.png') no-repeat 50% 0;
+  background-size: 100% 100%;
+}
+
+/*
+ * ---------- Контентная область
+ */
+
+.reasons-advantages { text-align: center; }
+
+.section-header {
+  width: 510px;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-header h1,
+.section-header h2,
+.reasons-advantages h3 {
+  line-height: 26px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.reasons-advantages header h1 { font-size: 21px; }
+
+.reasons-advantages header h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.reasons-advantages p { font-weight: normal; }
+
+.reasons-text {
+  width: 23.333333333333%;
+  padding: 0 5%;
+  background-color: #81b3d2;
+  color: #fff;
+  overflow: hidden;
+}
+
+.reasons-and-pic .reasons-text { height: 256px; }
+
+.reasons-text h3 {
+  width: 150px;
+  font-size: 21px;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-top: 2.45em;
+  margin-bottom: 0.5em;
+}
+
+.reasons-text p {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.reasons-image {
+  width: 66.666666666666%;
+  height: 256px;
+  overflow: hidden;
+}
+
+.reasons-image img {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.advantages-text {
+  box-sizing: border-box;
+  width: 33.333333333333%;
+  min-height: 330px;
+  padding: 0 4%;
+}
+
+.advantages-img {
+  display: inline-block;
+  width: 100px;
+  min-height: 100px;
+  margin-top: 42px;
+  margin-bottom: 6px;
+}
+
+.advantages-text img { width: 100%; }
+
+.advantages-text h3 {
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+}
+
+.reasons .reasons-text {
+  color: #000;
+  background-color: #eee;
+  min-height: 256px;
+}
+
+.reasons .reasons-text h3 { margin-top: 2.1em; }
+
+
+/*
+ * ---------- Блок поиска гостиницы
+ */
+
+.hotel-search { position: relative; }
+
+.hotel-search .section-header { margin-bottom: 132px; }
+
+.hotel-search .section-header h2 {
+  margin-top: 1.15em;
+  font-size: 30px;
+}
+
+.hotel-search .section-header h3 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.hotel-search-box {
+  position: absolute;
+  width: 568px;
+  left: 50%;
+  margin-top: -86px;
+  margin-left: -285px;
+  min-height: 500px;
+  z-index: 1;
+}
+
+.hotel-search-box h2 {
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #766357;
+}
+
+/*
+ * ---------- Форма Поиск гостиницы
+ */
+
+.hotel-search-box form {
+  background-color: #fff;
+  padding: 55px 56px 55px 54px;
+  box-shadow: 0 5px 15px 5px rgba(0,1,1,0.15);
+}
+
+.hotel-search-box .form-layout-row { margin-bottom: 25px; }
+
+.hotel-search-box form label {
+  display: block;
+  width: 106px;
+  padding: 9px 3px;
+}
+
+.hotel-search-box form input { display: inline-block; }
+
+.hotel-search-box form input[type=text] {
+  border: 2px solid #f2f2f2;
+  outline: none;
+  font: 700 14px/26px 'PT Sans', Arial;
+  background-color: #f2f2f2;
+}
+
+.hotel-search-box form input[type=text]:hover {
+  border-color: #ebebeb;
+  background-color: #ebebeb;
+}
+
+.hotel-search-box form input[type=text]:focus {
+  border-color: #e5e5e5;
+  background-color: #fff;
+}
+
+.date-in,
+.date-out {
+  width: 287px;
+  padding: 5px 42px 5px 13px;
+  background: url('../img/sprite.png') no-repeat top left;
+}
+
+.date-in:hover,
+.date-out:hover { background-position: 0 -36px; }
+
+.date-in:focus,
+.date-out:focus { background-position: 0 -72px; }
+
+.form-layout-row-half {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.form-layout-row-half-btns { font-size: 0; }
+
+.form-layout-row-half-btns input {
+  font-size: 14px;
+  line-height: 26px;
+  vertical-align: middle;
+}
+
+.form-layout-row-half-btns input[type=button] {
+  width: 38px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  text-indent: -10000px;
+}
+.form-layout-row-half-btns .btn-minus,
+.form-layout-row-half-btns .btn-plus { background: url('../img/sprite.png') no-repeat top left; }
+
+.form-layout-row-half-btns .btn-minus { background-position: 0 -172px; }
+
+.form-layout-row-half-btns .btn-minus:hover { background-position: -38px -172px; }
+
+.form-layout-row-half-btns .btn-minus:active { background-position: -76px -172px; }
+
+.form-layout-row-half-btns .btn-plus { background-position: 0 -210px; }
+
+.form-layout-row-half-btns .btn-plus:hover { background-position: -38px -210px; }
+
+.form-layout-row-half-btns .btn-plus:active { background-position: -76px -210px; }
+
+.form-layout-row-half-btns input[type=text] {
+  width: 26px;
+  padding: 4px;
+  min-height: 26px;
+  text-align: center;
+}
+
+.hotel-search-box .form-layout-row-half label.count-children {
+  width: 58px;
+  padding-left: 50px;
+}
+
+.hotel-search-box .form-layout-row input::-webkit-input-placeholder {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hotel-search-box .form-layout-row input:-moz-placeholder {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hotel-search-box .btn-search {
+  width: 100%;
+  padding: 16px 0;
+  margin-top: 27px;
+  border: none;
+  outline: none;
+  font: 700 21px/26px 'PT Sans', Arial;
+  text-transform: uppercase;
+}
+
+/*
+ * ---------- Карта
+ */
+
+.hotel-search-map {
+  position: relative;
+  overflow: hidden;
+  height: 587px;
+}
+
+.hotel-search-map iframe {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+/*
+ * ---------- Футер
+ */
+
+.footer-index {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-transform: translateY(-100%);
+     -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+       -o-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+/* ==================================
+    Гостиницы
+   ================================== */
+
+/*
+ * ---------- Сетка
+ */
+
+.filters {
+  width: 100%;
+  background: url('../pic/bg-hotels.jpg') no-repeat 50% 0;
+  min-height: 217px;
+}
+
+.result {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+
+.wrap-filters,
+.wrap-header-results,
+.wrap-result {
+  width: calc(100% * 0.8 + 93px);
+  margin: 0 auto;
+}
+
+.filters-options { width: 225px; }
+
+.filters-type {
+  padding-left: 15px;
+  width: 240px;
+}
+
+.filters-cost {
+  width: 30%;
+  padding: 0 1%;
+}
+
+.wrap-80pct {
+  width: 80%;
+  font-size: 0;
+}
+
+.wrap-20pct { width: 20%; }
+
+.results header h2,
+.results-filters-sort,
+.results-filters-sort h3,
+.results-filters-sort a,
+.results-arrows a {
+  display: inline-block;
+}
+
+.results header h2 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.results-filters-sort h3,
+.results-filters-sort a {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.results-arrows {
+  font-size: 0;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.results-arrows a {
+  width: 9px;
+  height: 9px;
+  vertical-align: middle;
+}
+
+.result-pic {
+  width: 130px;
+  overflow: hidden;
+}
+
+.result-pic img { width: 100%; }
+
+.result-info-name {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.result-info-text { font-size: 0; }
+
+.result-info-text p,
+.result-info-text a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.result-stars,
+.result-rating {
+  text-align: right;
+}
+
+.result-stars i {
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  background: url('../img/sprite.png') no-repeat -150px -140px;
+}
+
+/*
+ * ---------- Фильтры
+ */
+
+.filters h2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 1.7em;
+  margin-bottom: 0.8em;
+}
+
+.filters input[type=checkbox] { display: none; }
+
+.filters input[type=checkbox]+label {
+  display: block;
+  position: relative;
+  padding: 12px 0;
+  padding-left: 35px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.filters input[type=checkbox]+label::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprite.png') no-repeat -290px -108px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.filters input[type=checkbox]+label:hover::before { opacity: 0.6; }
+
+.filters input[type=checkbox]+label:active::before { opacity: 1; }
+
+.filters input[type=checkbox]:checked+label::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url('../img/sprite.png') no-repeat -310px -108px;
+  opacity: 1;
+}
+
+.filters input[type=checkbox]:checked+label:hover::before { opacity: 0.6; }
+
+.filters input[type=checkbox]:checked+label:active::before { opacity: 0.3; }
+
+.filters-cost h2 { margin-bottom: 0.6em; }
+
+.filters-cost-text-controls {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+.wrap-filters-cost-text-controls {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrap-filters-cost-text-controls::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  height: 30px;
+  width: 2px;
+  background-color: #fff;
+}
+
+.filters-cost-text-controls input[type="text"],
+.filters-cost-text-controls label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.filters-cost-text-controls input[type="text"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 17%;
+  padding: 3px 1%;
+}
+
+.filters-cost-text-controls label {
+  width: 10%;
+  margin-left: 15%;
+}
+
+.filters-cost-range-controls {
+  position: relative;
+  height: 80px;
+  margin: 5px auto;
+  padding: 0 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.scale {
+  margin-top:39px;
+  height:2px;
+  background: rgba(255,255,255,0.3);
+}
+
+.bar {
+  height: 2px;
+  background: rgba(255,255,255,1);
+}
+
+.toggle{
+  position: absolute;
+  top: 30px;
+  width: 4px;
+  height: 4px;
+  border: 8px solid white;
+  background: #ababab;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.toggle:hover { background: #1c4f80; }
+
+.max-toggle { margin-left: -10px ;}
+
+/*
+ * ----------- Строка фильтра результатов
+ */
+
+.header-results,
+.result {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-results {
+  padding-top: 9px;
+  padding-bottom: 8px;
+}
+
+.header-results h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  max-width: 135px;
+}
+
+.results-filters-sort h3 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  padding: 0 30px;
+  margin-left: 18px;
+  max-width: 90px;
+}
+
+.results-filters-sort a:link,
+.results-filters-sort a:visited,
+.results-filters-sort a:hover,
+.results-filters-sort a:active {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: normal;
+  color: rgba(0,0,0,0.3);
+  border-bottom: 1px dotted #81b3d2;
+  margin-left: 10px;
+  margin-right: 28px;
+  padding: 1px 0;
+  max-width: 90px;
+}
+
+.results-filters-sort a:hover { color: #81b3d2; }
+
+.results-filters-sort a:active {
+  color: #000;
+  border: none;
+}
+
+.results-filters-sort a.active:link,
+.results-filters-sort a.active:visited,
+.results-filters-sort a.active:hover,
+.results-filters-sort a.active:active {
+  color: #81b3d2;
+  border:none;
+}
+
+.results-arrows {
+  min-height: 9px;
+  padding: 24px 0;
+  vertical-align: middle;
+}
+
+.results-arrows a {
+  margin-left: 10px;
+  margin-right: 5px;
+  background: url('../img/sprite.png') no-repeat top left;
+}
+
+.results-arrows a.arrow-up { background-position: -150px -131px ; }
+
+.results-arrows a.arrow-up:hover { background-position: -160px -131px ; }
+
+.results-arrows a.arrow-up:active { background-position: -170px -131px ; }
+
+.results-arrows a.arrow-down { background-position: -150px -108px ; }
+
+.results-arrows a.arrow-down:hover { background-position: -160px -108px ; }
+
+.results-arrows a.arrow-down:active { background-position: -170px -108px ; }
+
+.results-arrows a.arrow-up.arrow-active:link,
+.results-arrows a.arrow-up.arrow-active:visited,
+.results-arrows a.arrow-up.arrow-active:hover,
+.results-arrows a.arrow-up.arrow-active:active { background-position: -170px -131px ; }
+
+.results-arrows a.arrow-down.arrow-active:link,
+.results-arrows a.arrow-down.arrow-active:visited,
+.results-arrows a.arrow-down.arrow-active:hover,
+.results-arrows a.arrow-down.arrow-active:active { background-position: -170px -108px ; }
+
+/*
+ * ----------- Строка с выдачей отелей
+ */
+
+.result-pic { margin-top: 20px; }
+
+.result-info {
+  margin-left: 32px;
+  max-width: 350px;
+}
+
+.result-info-name {
+  display: block;
+  margin-top: 0.7em;
+  margin-bottom: 0.05em;
+}
+
+.result-info-name:hover { color: #81b3d2; }
+
+.result-info-name:active { color: rgba(0,0,0,0.3);}
+
+.result-info-text {
+  font-weight: normal;
+}
+
+.result-info-text p {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-bottom: 0.95em;
+  padding-right: 10px;
+  min-width: 106px;
+  vertical-align: top;
+}
+
+.result-info-btns a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  padding: 3px 17px;
+  padding-right: 18px;
+  margin-right: 6px;
+  max-width: 150px;
+  vertical-align: top;
+}
+
+.blue-btn {
+  color: #fff;
+  background-color: #81b3d2;
+}
+
+.blue-btn:hover {
+  color: #fff;
+  background-color: #669ec0;
+}
+
+.blue-btn:active {
+  background-color: #5496bd;
+  color: rgba(255,255,255,0.3);
+}
+
+.brown-btn { background-color: #766357; }
+
+.brown-btn:hover { background-color: #604e43; }
+
+.brown-btn:active {
+  background-color: #503e33;
+  color: rgba(255,255,255,0.3);
+}
+
+.result-stars-rating {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.result-stars { margin-right: 5px; }
+
+.result-rating {
+  margin: 0;
+  margin-top: 40px;
+  margin-right: 8px;
+  display: inline-block;
+  font-weight: normal;
+  color: #666;
+  background-color: #f2f2f2;
+  max-width: 140px;
+  padding: 3px 10px;
+}
