@@ -1,14 +1,14 @@
 
 /*! normalize.css v1.0.0 | MIT License | git.io/normalize */
- 
+
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
- 
+
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
- 
+
 article,
 aside,
 details,
@@ -22,11 +22,11 @@ section,
 summary {
     display: block;
 }
- 
+
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
- 
+
 audio,
 canvas,
 video {
@@ -34,49 +34,49 @@ video {
     *display: inline;
     *zoom: 1;
 }
- 
+
 /*
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
- 
+
 audio:not([controls]) {
     display: none;
     height: 0;
 }
- 
+
 /*
  * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
- 
+
 [hidden] {
     display: none;
 }
- 
+
 /* ==========================================================================
    Base
    ========================================================================== */
- 
+
 /*
  * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *    `em` units.
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
- 
+
 html {
     font-size: 100%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
 }
- 
+
 /*
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
- 
+
 html,
 button,
 input,
@@ -84,127 +84,127 @@ select,
 textarea {
     font-family: sans-serif;
 }
- 
+
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
- 
+
 body {
     margin: 0;
 }
- 
+
 /* ==========================================================================
    Links
    ========================================================================== */
- 
+
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
- 
+
 a:focus {
     outline: thin dotted;
 }
- 
+
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
- 
+
 a:active,
 a:hover {
     outline: 0;
 }
- 
+
 /* ==========================================================================
    Typography
    ========================================================================== */
- 
+
 /*
  * Addresses font sizes and margins set differently in IE 6/7.
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
- 
+
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
- 
+
 h2 {
     font-size: 1.5em;
     margin: 0.83em 0;
 }
- 
+
 h3 {
     font-size: 1.17em;
     margin: 1em 0;
 }
- 
+
 h4 {
     font-size: 1em;
     margin: 1.33em 0;
 }
- 
+
 h5 {
     font-size: 0.83em;
     margin: 1.67em 0;
 }
- 
+
 h6 {
     font-size: 0.75em;
     margin: 2.33em 0;
 }
- 
+
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
- 
+
 abbr[title] {
     border-bottom: 1px dotted;
 }
- 
+
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
- 
+
 b,
 strong {
     font-weight: bold;
 }
- 
+
 blockquote {
     margin: 1em 40px;
 }
- 
+
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
- 
+
 dfn {
     font-style: italic;
 }
- 
+
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
- 
+
 mark {
     background: #ff0;
     color: #000;
 }
- 
+
 /*
  * Addresses margins set differently in IE 6/7.
  */
- 
+
 p,
 pre {
     margin: 1em 0;
 }
- 
+
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
- 
+
 code,
 kbd,
 pre,
@@ -213,43 +213,43 @@ samp {
     _font-family: 'courier new', monospace;
     font-size: 1em;
 }
- 
+
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
- 
+
 pre {
     white-space: pre;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
- 
+
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
- 
+
 q {
     quotes: none;
 }
- 
+
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
- 
+
 q:before,
 q:after {
     content: '';
     content: none;
 }
- 
+
 small {
     font-size: 75%;
 }
- 
+
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
- 
+
 sub,
 sup {
     font-size: 75%;
@@ -257,130 +257,130 @@ sup {
     position: relative;
     vertical-align: baseline;
 }
- 
+
 sup {
     top: -0.5em;
 }
- 
+
 sub {
     bottom: -0.25em;
 }
- 
+
 /* ==========================================================================
    Lists
    ========================================================================== */
- 
+
 /*
  * Addresses margins set differently in IE 6/7.
  */
- 
+
 dl,
 menu,
 ol,
 ul {
     margin: 1em 0;
 }
- 
+
 dd {
     margin: 0 0 0 40px;
 }
- 
+
 /*
  * Addresses paddings set differently in IE 6/7.
  */
- 
+
 menu,
 ol,
 ul {
     padding: 0 0 0 40px;
 }
- 
+
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
- 
+
 nav ul,
 nav ol {
     list-style: none;
     list-style-image: none;
 }
- 
+
 /* ==========================================================================
    Embedded content
    ========================================================================== */
- 
+
 /*
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
- 
+
 img {
     border: 0; /* 1 */
     -ms-interpolation-mode: bicubic; /* 2 */
 }
- 
+
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
- 
+
 svg:not(:root) {
     overflow: hidden;
 }
- 
+
 /* ==========================================================================
    Figures
    ========================================================================== */
- 
+
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
- 
+
 figure {
     margin: 0;
 }
- 
+
 /* ==========================================================================
    Forms
    ========================================================================== */
- 
+
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
- 
+
 form {
     margin: 0;
 }
- 
+
 /*
  * Define consistent border, margin, and padding.
  */
- 
+
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
- 
+
 /*
  * 1. Corrects color not being inherited in IE 6/7/8/9.
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
- 
+
 legend {
     border: 0; /* 1 */
     padding: 0;
     white-space: normal; /* 2 */
     *margin-left: -7px; /* 3 */
 }
- 
+
 /*
  * 1. Corrects font size not being inherited in all browsers.
  * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
- 
+
 button,
 input,
 select,
@@ -390,17 +390,17 @@ textarea {
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
 }
- 
+
 /*
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
- 
+
 button,
 input {
     line-height: normal;
 }
- 
+
 /*
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
  *    and `video` controls.
@@ -410,7 +410,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
- 
+
 button,
 html input[type="button"], /* 1 */
 input[type="reset"],
@@ -419,23 +419,23 @@ input[type="submit"] {
     cursor: pointer; /* 3 */
     *overflow: visible;  /* 4 */
 }
- 
+
 /*
  * Re-set default cursor for disabled elements.
  */
- 
+
 button[disabled],
 input[disabled] {
     cursor: default;
 }
- 
+
 /*
  * 1. Addresses box sizing set to content-box in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
- 
+
 input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box; /* 1 */
@@ -443,58 +443,58 @@ input[type="radio"] {
     *height: 13px; /* 3 */
     *width: 13px; /* 3 */
 }
- 
+
 /*
  * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
- 
+
 input[type="search"] {
     -webkit-appearance: textfield; /* 1 */
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box; /* 2 */
     box-sizing: content-box;
 }
- 
+
 /*
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
- 
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
- 
+
 /*
  * Removes inner padding and border in Firefox 3+.
  */
- 
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
- 
+
 /*
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
- 
+
 textarea {
     overflow: auto; /* 1 */
     vertical-align: top; /* 2 */
 }
- 
+
 /* ==========================================================================
    Tables
    ========================================================================== */
- 
+
 /*
  * Remove most spacing between table cells.
  */
- 
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -506,7 +506,7 @@ table {
 a:link,
 a:visited,
 a:hover,
-a:active { 
+a:active {
   color: #000;
   text-decoration: none;
   outline: none;
@@ -537,7 +537,7 @@ body { background-color: #f2f2f2; }
 .to-right { float: right; }
 
 /* ==========================================================================
-    Главное верхнее меню 
+    Главное верхнее меню
    ========================================================================== */
 
 .top-menu {
@@ -556,7 +556,7 @@ body { background-color: #f2f2f2; }
 .top-menu li a:link,
 .top-menu li a:visited,
 .top-menu li a:hover,
-.top-menu li a:active { 
+.top-menu li a:active {
   display: block;
   text-align: center;
   font-size: 14px;
@@ -621,9 +621,6 @@ footer h4.footer-col {
   font-size: 12px;
   width: 46px;
   height: 48px;
-  margin-right: 6px ;
-  background: #81b3d2;
-  text-indent: -10000px;
 }
 
 .social a:hover { background: #669ec0; }
@@ -632,7 +629,7 @@ footer h4.footer-col {
 
 .social-twitter::before,
 .social-fb::before,
-.social-youtube::before { 
+.social-youtube::before {
   display: block;
   content: "";
   position: absolute;
@@ -640,9 +637,6 @@ footer h4.footer-col {
   left: 50%;
   background: url('../img/sprite.png') no-repeat top left;
   -webkit-transform: translate(-50%,-50%);
-     -moz-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-       -o-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
 
@@ -689,7 +683,7 @@ footer h4.footer-col {
   text-indent: -10000px;
 }
 
-.copyright-author { 
+.copyright-author {
   width: 27px;
   height: 30px;
   background-position: 0 -140px;
@@ -697,12 +691,12 @@ footer h4.footer-col {
 
 .copyright-author:hover { background-position: -38px -140px; }
 
-.copyright-author:active { 
+.copyright-author:active {
   background-position: 0 -140px;
   opacity: 0.3;
 }
 
-.copyright-client { 
+.copyright-client {
   width: 27px;
   height: 32px;
   background-position: 0 -108px;
@@ -710,7 +704,7 @@ footer h4.footer-col {
 
 .copyright-client:hover { background-position: -38px -108px; }
 
-.copyright-client:active { 
+.copyright-client:active {
   background-position: 0 -108px;
   opacity: 0.3;
 }
@@ -719,7 +713,7 @@ footer h4.footer-col {
     Информация
    ========================================================================== */
 
-/* 
+/*
  * ---------- Крупное фото + текстовые блоки
  */
 
@@ -731,7 +725,7 @@ footer h4.footer-col {
   border-top: 1px solid transparent;
 }
 
-.intro-text { 
+.intro-text {
   margin: 0 auto;
   overflow: hidden;
 }
@@ -791,7 +785,7 @@ footer h4.footer-col {
 
 .reasons-advantages header h1 { font-size: 21px; }
 
-.reasons-advantages header h2 { 
+.reasons-advantages header h2 {
   font-size: 14px;
   font-weight: normal;
 }
@@ -824,7 +818,7 @@ footer h4.footer-col {
 
 .reasons-image {
   width: 66.666666666666%;
-  height: 256px; 
+  height: 256px;
   overflow: hidden;
 }
 
@@ -912,7 +906,7 @@ footer h4.footer-col {
   background-color: #766357;
 }
 
-/* 
+/*
  * ---------- Форма Поиск гостиницы
  */
 
@@ -962,14 +956,14 @@ footer h4.footer-col {
 .date-in:focus,
 .date-out:focus { background-position: 0 -72px; }
 
-.form-layout-row-half { 
+.form-layout-row-half {
   width: 50%;
   margin-top: 5px;
 }
 
 .form-layout-row-half-btns { font-size: 0; }
 
-.form-layout-row-half-btns input { 
+.form-layout-row-half-btns input {
   font-size: 14px;
   line-height: 26px;
   vertical-align: middle;
@@ -1032,7 +1026,7 @@ footer h4.footer-col {
   text-transform: uppercase;
 }
 
-/* 
+/*
  * ---------- Карта
  */
 
@@ -1047,13 +1041,11 @@ footer h4.footer-col {
   left: 50%;
   -webkit-transform: translateX(-50%);
      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-       -o-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
-/* 
- * ---------- Футер 
+/*
+ * ---------- Футер
  */
 
 .footer-index {
@@ -1066,9 +1058,9 @@ footer h4.footer-col {
           transform: translateY(-100%);
 }
 
-/* ==========================================================================
+/* ==================================
     Гостиницы
-   ========================================================================== */
+   ================================== */
 
 /*
  * ---------- Сетка
@@ -1080,7 +1072,7 @@ footer h4.footer-col {
   min-height: 217px;
 }
 
-.result { 
+.result {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 22px;
@@ -1116,7 +1108,7 @@ footer h4.footer-col {
 .results-filters-sort,
 .results-filters-sort h3,
 .results-filters-sort a,
-.results-arrows a { 
+.results-arrows a {
   display: inline-block;
 }
 
@@ -1132,7 +1124,7 @@ footer h4.footer-col {
   line-height: 18px;
 }
 
-.results-arrows { 
+.results-arrows {
   font-size: 0;
   text-align: right;
   vertical-align: middle;
@@ -1320,7 +1312,7 @@ footer h4.footer-col {
  */
 
 .header-results,
-.result { 
+.result {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1361,7 +1353,7 @@ footer h4.footer-col {
 
 .results-filters-sort a:hover { color: #81b3d2; }
 
-.results-filters-sort a:active { 
+.results-filters-sort a:active {
   color: #000;
   border: none;
 }
@@ -1453,17 +1445,17 @@ footer h4.footer-col {
   vertical-align: top;
 }
 
-.blue-btn { 
+.blue-btn {
   color: #fff;
   background-color: #81b3d2;
 }
 
-.blue-btn:hover { 
+.blue-btn:hover {
   color: #fff;
   background-color: #669ec0;
 }
 
-.blue-btn:active { 
+.blue-btn:active {
   background-color: #5496bd;
   color: rgba(255,255,255,0.3);
 }
@@ -1472,12 +1464,12 @@ footer h4.footer-col {
 
 .brown-btn:hover { background-color: #604e43; }
 
-.brown-btn:active { 
+.brown-btn:active {
   background-color: #503e33;
   color: rgba(255,255,255,0.3);
 }
 
-.result-stars-rating { 
+.result-stars-rating {
   margin-top: 20px;
   text-align: right;
 }
